@@ -1,0 +1,416 @@
+root{
+    --green-color: #B5C1A6;
+    --light-orange:#FFF1E6;
+    --dark-orange:#DE6F0D;
+    --skin:#FFF9F4;
+    --baby-pink:#FBF5FF;
+    --mint-green:#E1F2EE;
+    --blue:#F5F8FF;
+    --dark-brown:#3D2010;
+
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    margin:0;
+    font-family:"Raleway" ,"Open Sans";
+}
+.btn{
+width: 205px;
+height:49px;
+padding: 9px 14px 10px 14px;
+gap: 9.6px;
+border-radius: 50px;
+border: 1px #DE6F0D solid ;
+opacity: 0px;
+font-size: 17px;
+font-family: "Raleway";
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+text-decoration: none;
+
+
+}
+.book{
+    width: 18px;
+height: 19px;
+}
+
+
+.btn.orange{
+    background-color:#DE6F0D ;
+    color: white;
+    font-weight: 360;
+}
+.btn.transparent{
+    width: 107px;
+    height: 49px;
+    background: #FFF1E6;
+    color: black;
+    font-weight: 300;
+    font-size: 13px;
+    
+}
+.wrapper{
+    max-width:1350px;
+    margin: 0 auto;
+}
+/* header*/
+header{
+    background: #FFF1E6;
+    height: 73px;
+    width: 100%;
+    position: sticky;
+    top:0;
+    z-index: 999;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+
+
+}
+nav .logo img{
+width: 119px;
+height: 48px;
+margin-left: 2rem;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+/* hero section */
+
+
+
+
+.hero-section{
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: #B5C1A6;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+.right img{
+    height: 370px;
+    width: 346px;
+}
+.left{
+margin-left: 100px;
+
+}
+.hero-section .left h1{
+font-family: "Raleway";
+font-size: 47px;
+font-weight: 800 ;
+line-height: 79.2px;
+text-align: right;
+margin:0;
+
+}
+.hero-section .left p{
+    margin: 0;
+    font-size: x-large;
+    margin-bottom: 40px;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+/* review section */ 
+
+
+.review{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 30vh;
+    padding: 20px 20px ;
+}
+.reviewl{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+}
+.reviewl h1{
+    margin-bottom: 0;
+}
+.reviewr{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+.google{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.google img{
+    height:75px;
+    width: 237px    ;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* services selection */
+
+
+.services-section{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #FFF9F4;
+}
+.sc h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.card{
+    background: white;
+    height: 160px;
+    width: 160px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.et{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 40px;
+    
+}
+.et a{
+    color: black;
+    font-family: "Raleway";
+}
+
+/*   CONTACT DIV */
+
+.contactwrap{
+    height: 100vh;
+    width: 80%;
+    
+}
+.contact-card{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    background-color: white;
+    display: flex;
+
+    
+}
+.upperrr img{
+height: 200px;
+width: 200px;
+margin-left: 20px;
+margin-bottom: -20px;
+}
+.lower{
+    display: flex;
+    
+}
+.contactcard1{
+    background: #FFF9F4;
+    display: flex;
+    justify-content: center;
+    padding : 20px;
+    
+    
+    width: 420px;
+    border-radius: 10px;
+}
+.contactcard2{
+    margin-left: 20px;
+}
+.upper{
+    background: #FBF5FF;
+    
+    margin-bottom: 50px;
+    border-radius: 10px;
+    width: 550px;
+    display: flex;
+    padding: 20px;
+    
+}
+.leftt{
+    background: #F5F8FF;
+    height:260px;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rightt{
+    background: #E1F2EE;
+    height: 260px;
+    border-radius: 10px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.lower h1{
+    font-size: medium;
+    
+}
+.lower img{
+    width: 73px;
+    height: 70px;
+}
+.lower a{
+    color: #3D2010;
+}
+
+/*          people            card     */
+.peoplecards{
+    display:flex;
+    justify-content: space-around;
+}
+
+.peoplecard img{
+    height: 360px;
+    width: 220px;
+    border-radius: 30px;
+}
+.peoplecard p{
+    color:brown
+}
+.peoplereview h1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.reviewh{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*v                   v*/
+
+.doctor{
+    display: flex;
+    margin-top: 100px;
+    background:#FFF9F4
+}
+.doctorleftimage{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+.doctorcard img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.doctorcards{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.doctorright{
+    margin-left: 50px;
+}
+.doctorleft{
+    margin-left: 50px;;
+}
+.meetdoc{
+    margin-top: 50px;
+}
+
+
+/* footer*/
+footer{
+    background: #3D2010;
+}
+.links-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.footerimage{
+    height: 300px;
+    width: 655px;
+    margin-left: 300px;
+}
+.footertext{
+    font-size: x-large;
+    margin-left: 180px;
+    
+}
+.links h3 {
+    color: #FFEFE2;
+    
+}
+.links a {
+    text-decoration: none;
+    color: #FFEFE2;
+    list-style: none;
+}
+.links li{
+    list-style: none;
+}
